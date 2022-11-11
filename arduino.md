@@ -41,8 +41,8 @@ void loop() {
   delay(1000);
 }
 ```
-7. Сверху-слева нажми кнопку **(→)** (Загрузить на плату).
-8. **Подождите** 10 секунд. **Всё!** Первая программа была написана и загружена на плату. Теперь, если отключить плату от компьютера и подключить к USB-блокопитанию, то она будет так же мигать.
+<span>7.</span> Сверху-слева нажми кнопку **(→)** (Загрузить на плату).
+<span>8.</span> **Подождите** 10 секунд. **Всё!** Первая программа была написана и загружена на плату. Теперь, если отключить плату от компьютера и подключить к USB-блокопитанию, то она будет так же мигать.
 
 ## II. Пояснение к быстрому старту
 
@@ -176,8 +176,7 @@ void loop() {
 <details>
     <summary>Посмотреть ответ для задачи 1</summary>
 
-```
-void setup() {
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>void setup() {
   pinMode(13, OUTPUT);
 }
 
@@ -186,16 +185,14 @@ void loop() {
   delay(2000);
   digitalWrite(13, LOW);
   delay(2000);
-}
-```
+}</code></pre></div></div>
 </details>
 <span>2.</span> Сделайте, чтобы светодиод горел **3 секунды**, а потухшим **полсекунды**.
 
 <details>
     <summary>Посмотреть ответ для задачи 2</summary>
 
-```
-void setup() {
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>void setup() {
   pinMode(13, OUTPUT);
 }
 
@@ -204,16 +201,14 @@ void loop() {
   delay(3000);
   digitalWrite(13, LOW);
   delay(500);
-}
-```
+}</code></pre></div></div>
 </details>
 <span>3.</span> Сделайте, чтобы светодиод быстро мигал **три раза** (300 мс). А затем долго был **выключен** (5 сек).
 
 <details>
     <summary>Посмотреть ответ для задачи 3</summary>
     
-```
-void setup() {
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>void setup() {
   pinMode(13, OUTPUT);
 }
 
@@ -230,16 +225,14 @@ void loop() {
   delay(300);
   digitalWrite(13, LOW);
   delay(5000);
-}
-```
+}</code></pre></div></div>
 </details>
 <span>4.</span> Сделайте, чтобы при **подключении питания** к плате Arduino, светодиод **10 секунд** был выключен. И только **затем** начинал мигать **как обычно** (1 сек).
 
 <details>
     <summary>Посмотреть ответ для задачи 4</summary>
     
-```
-void setup() {
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>void setup() {
   pinMode(13, OUTPUT);
   delay(10000);
 }
@@ -249,6 +242,5 @@ void loop() {
   delay(1000);
   digitalWrite(13, LOW);
   delay(1000);
-}
-```
+}</code></pre></div></div>
 </details>
