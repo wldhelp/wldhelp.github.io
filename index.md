@@ -1,3 +1,12 @@
+<style>
+div.highlight {
+    border: 1px solid lightgray;
+}
+code.language-plaintext {
+    border: 1px solid lightgray;
+}
+</style>
+
 # Справка по блогу Владимира
 
 Содержание:
