@@ -20,7 +20,7 @@ code.language-plaintext {
 - [IV. Модификация быстрого старта](#iv-модификация-быстрого-старта)
 - [V. Ответы для задач](#v-ответы-для-задач)
 
-![](/arduino_nano.jpg | width=100)
+<img src="/arduino_nano.jpg" width="485" height="427" >
 
 ## I. Быстрый старт
 
